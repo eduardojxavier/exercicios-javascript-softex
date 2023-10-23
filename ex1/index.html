@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <div class="cadastro">
+        <section id="telaCadastro">
+            <h3>Cadastro de Pessoas</h3><br>
+            <label class="dados">Nome </label><input type="text" name="Nome"><br>
+            <label class="dados">Salário (R$)</label><input type="number" name="salario"><br>
+            <label class="dados">Idade</label><input type="number" name="idade"><br>
+            <label id="opcaoDiploma">Diploma</label>
+            
+            <select id="opcaoDiploma">
+                <option value="sim">SIM</option>
+                <option value="nao">NÃO</option>
+            </select>
+            <br>
+        <div class="botaoEnvio">
+            <input class=botaoEnviar type="button" value="Enviar" name="enviar">
+        </div>
+            
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

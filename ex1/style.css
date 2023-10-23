@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.cadastro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#telaCadastro{
+    width: 500px;
+    height: 350px;
+    background: #caced6;
+}
+
+#telaCadastro > h3{
+    text-align: center;
+    color: rgb(53, 52, 52);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* tela */
+
+label.dados {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 70px;
+}
+
+#opcaoDiploma{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 70px;
+
+}
+
+
+/*  */
+
+.botaoEnvio{
+    margin-left: 100px;
+    
+        
+}
